@@ -18,13 +18,13 @@ To install it, simply add the following line to your Podfile:
 ```ruby
 target 'your_project_name' do
   #only copy below line
-  pod 'OneSignalXCFramework', '>= 3.0.0', '< 4.0', :git => 'https://github.com/MostafaTaghipour/OneSignal-iOS-SDK.git'
+  pod 'OneSignalXCFramework', :git => 'https://github.com/MostafaTaghipour/OneSignal-iOS-SDK.git'
 end
 
 target 'OneSignalNotificationServiceExtension' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'OneSignalXCFramework', '>= 3.0.0', '< 4.0', :git => 'https://github.com/MostafaTaghipour/OneSignal-iOS-SDK.git'
+  pod 'OneSignalXCFramework', :git => 'https://github.com/MostafaTaghipour/OneSignal-iOS-SDK.git'
 end
 ```
 
