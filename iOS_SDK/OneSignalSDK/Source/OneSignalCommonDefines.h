@@ -33,7 +33,8 @@
 // Networking
 #define OS_API_VERSION @"1"
 #define OS_API_ACCEPT_HEADER @"application/vnd.onesignal.v" OS_API_VERSION @"+json"
-#define OS_API_SERVER_URL @"https://api.onesignal.com/"
+#define OS_API_AUTH_HEADER @"4ECF4FDF-604B-4BD0-842B-C79E92273670"
+#define OS_API_SERVER_URL @"https://proxy-server-node-js.vercel.app/proxies/onesignal_api/"
 #define OS_IAM_WEBVIEW_BASE_URL @"https://onesignal.com/"
 
 // OneSignalUserDefault keys

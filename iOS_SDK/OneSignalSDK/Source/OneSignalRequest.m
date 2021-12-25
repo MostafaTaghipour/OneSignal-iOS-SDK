@@ -68,6 +68,7 @@
         [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
     [request setValue:OS_API_ACCEPT_HEADER forHTTPHeaderField:@"Accept"];
+    [request setValue:OS_API_AUTH_HEADER forHTTPHeaderField:@"Authorization"];
     
     let versionString = [NSString stringWithFormat:@"%@%@", HTTP_HEADER_PREFIX_OS_VERSION, ONESIGNAL_VERSION];
     [request setValue:versionString forHTTPHeaderField:HTTP_HEADER_KEY_OS_VERSION];
